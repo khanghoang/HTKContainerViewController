@@ -7,12 +7,17 @@
 //
 
 #import "HTKAppDelegate.h"
+#import "HTKViewController.h"
 
 @implementation HTKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[HTKViewController alloc] init];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							

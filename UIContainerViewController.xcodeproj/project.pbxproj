@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4007EEF180C396700AE96F2 /* HTKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4007EEE180C396700AE96F2 /* HTKViewController.xib */; };
+		B4007EF4180C39B000AE96F2 /* HTKViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B4007EF2180C39B000AE96F2 /* HTKViewController2.m */; };
+		B4007EF5180C39B000AE96F2 /* HTKViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4007EF3180C39B000AE96F2 /* HTKViewController2.xib */; };
 		B48C40C7180BFF6F00BD29B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48C40C6180BFF6F00BD29B5 /* Foundation.framework */; };
 		B48C40C9180BFF6F00BD29B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48C40C8180BFF6F00BD29B5 /* CoreGraphics.framework */; };
 		B48C40CB180BFF6F00BD29B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48C40CA180BFF6F00BD29B5 /* UIKit.framework */; };
 		B48C40D1180BFF6F00BD29B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B48C40CF180BFF6F00BD29B5 /* InfoPlist.strings */; };
 		B48C40D3180BFF6F00BD29B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C40D2180BFF6F00BD29B5 /* main.m */; };
 		B48C40D7180BFF6F00BD29B5 /* HTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C40D6180BFF6F00BD29B5 /* HTKAppDelegate.m */; };
-		B48C40DA180BFF6F00BD29B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48C40D8180BFF6F00BD29B5 /* Main.storyboard */; };
 		B48C40DD180BFF6F00BD29B5 /* HTKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C40DC180BFF6F00BD29B5 /* HTKViewController.m */; };
 		B48C40DF180BFF6F00BD29B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48C40DE180BFF6F00BD29B5 /* Images.xcassets */; };
 		B48C40E6180BFF6F00BD29B5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48C40E5180BFF6F00BD29B5 /* XCTest.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4007EEE180C396700AE96F2 /* HTKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTKViewController.xib; sourceTree = "<group>"; };
+		B4007EF1180C39B000AE96F2 /* HTKViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKViewController2.h; sourceTree = "<group>"; };
+		B4007EF2180C39B000AE96F2 /* HTKViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKViewController2.m; sourceTree = "<group>"; };
+		B4007EF3180C39B000AE96F2 /* HTKViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTKViewController2.xib; sourceTree = "<group>"; };
 		B48C40C3180BFF6F00BD29B5 /* UIContainerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIContainerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48C40C6180BFF6F00BD29B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B48C40C8180BFF6F00BD29B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +50,6 @@
 		B48C40D4180BFF6F00BD29B5 /* UIContainerViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIContainerViewController-Prefix.pch"; sourceTree = "<group>"; };
 		B48C40D5180BFF6F00BD29B5 /* HTKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTKAppDelegate.h; sourceTree = "<group>"; };
 		B48C40D6180BFF6F00BD29B5 /* HTKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTKAppDelegate.m; sourceTree = "<group>"; };
-		B48C40D9180BFF6F00BD29B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B48C40DB180BFF6F00BD29B5 /* HTKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTKViewController.h; sourceTree = "<group>"; };
 		B48C40DC180BFF6F00BD29B5 /* HTKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTKViewController.m; sourceTree = "<group>"; };
 		B48C40DE180BFF6F00BD29B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -79,6 +84,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4007EF0180C399600AE96F2 /* ViewController 1 */ = {
+			isa = PBXGroup;
+			children = (
+				B48C40DB180BFF6F00BD29B5 /* HTKViewController.h */,
+				B48C40DC180BFF6F00BD29B5 /* HTKViewController.m */,
+				B4007EEE180C396700AE96F2 /* HTKViewController.xib */,
+			);
+			name = "ViewController 1";
+			sourceTree = "<group>";
+		};
+		B4007EF6180C39B800AE96F2 /* ViewController 2 */ = {
+			isa = PBXGroup;
+			children = (
+				B4007EF1180C39B000AE96F2 /* HTKViewController2.h */,
+				B4007EF2180C39B000AE96F2 /* HTKViewController2.m */,
+				B4007EF3180C39B000AE96F2 /* HTKViewController2.xib */,
+			);
+			name = "ViewController 2";
+			sourceTree = "<group>";
+		};
 		B48C40BA180BFF6F00BD29B5 = {
 			isa = PBXGroup;
 			children = (
@@ -114,9 +139,8 @@
 			children = (
 				B48C40D5180BFF6F00BD29B5 /* HTKAppDelegate.h */,
 				B48C40D6180BFF6F00BD29B5 /* HTKAppDelegate.m */,
-				B48C40D8180BFF6F00BD29B5 /* Main.storyboard */,
-				B48C40DB180BFF6F00BD29B5 /* HTKViewController.h */,
-				B48C40DC180BFF6F00BD29B5 /* HTKViewController.m */,
+				B4007EF0180C399600AE96F2 /* ViewController 1 */,
+				B4007EF6180C39B800AE96F2 /* ViewController 2 */,
 				B48C40DE180BFF6F00BD29B5 /* Images.xcassets */,
 				B48C40CD180BFF6F00BD29B5 /* Supporting Files */,
 			);
@@ -230,8 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B48C40DF180BFF6F00BD29B5 /* Images.xcassets in Resources */,
+				B4007EEF180C396700AE96F2 /* HTKViewController.xib in Resources */,
 				B48C40D1180BFF6F00BD29B5 /* InfoPlist.strings in Resources */,
-				B48C40DA180BFF6F00BD29B5 /* Main.storyboard in Resources */,
+				B4007EF5180C39B000AE96F2 /* HTKViewController2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +278,7 @@
 				B48C40DD180BFF6F00BD29B5 /* HTKViewController.m in Sources */,
 				B48C40D7180BFF6F00BD29B5 /* HTKAppDelegate.m in Sources */,
 				B48C40D3180BFF6F00BD29B5 /* main.m in Sources */,
+				B4007EF4180C39B000AE96F2 /* HTKViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +307,6 @@
 				B48C40D0180BFF6F00BD29B5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B48C40D8180BFF6F00BD29B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B48C40D9180BFF6F00BD29B5 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		B48C40EE180BFF6F00BD29B5 /* InfoPlist.strings */ = {
@@ -461,6 +479,7 @@
 				B48C40F7180BFF6F00BD29B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48C40F8180BFF6F00BD29B5 /* Build configuration list for PBXNativeTarget "UIContainerViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +488,7 @@
 				B48C40FA180BFF6F00BD29B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
