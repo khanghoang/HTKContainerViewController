@@ -8,6 +8,7 @@
 
 #import "HTKAppDelegate.h"
 #import "HTKViewController.h"
+#import "HTKContainerViewController.h"
 
 @implementation HTKAppDelegate
 
@@ -15,7 +16,11 @@
 {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [[HTKViewController alloc] init];
+    
+    HTKContainerViewController *containerVC = [[HTKContainerViewController alloc] init];
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:containerVC];
+    
+    self.window.rootViewController = navVC;
     [self.window makeKeyAndVisible];
     
     return YES;

@@ -1,5 +1,5 @@
 //
-//  HTKViewController2.h
+//  HTKContainerViewController.h
 //  UIContainerViewController
 //
 //  Created by Triệu Khang on 14/10/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HTKViewController2 : UIViewController
+@interface HTKContainerViewController : UIViewController
 
 @end

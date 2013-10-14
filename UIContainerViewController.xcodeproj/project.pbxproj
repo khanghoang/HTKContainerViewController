@@ -10,6 +10,8 @@
 		B4007EEF180C396700AE96F2 /* HTKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4007EEE180C396700AE96F2 /* HTKViewController.xib */; };
 		B4007EF4180C39B000AE96F2 /* HTKViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B4007EF2180C39B000AE96F2 /* HTKViewController2.m */; };
 		B4007EF5180C39B000AE96F2 /* HTKViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4007EF3180C39B000AE96F2 /* HTKViewController2.xib */; };
+		B4007EF9180C411800AE96F2 /* HTKContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4007EF8180C411800AE96F2 /* HTKContainerViewController.m */; };
+		B4007EFB180C428300AE96F2 /* HTKContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4007EFA180C428300AE96F2 /* HTKContainerViewController.xib */; };
 		B48C40C7180BFF6F00BD29B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48C40C6180BFF6F00BD29B5 /* Foundation.framework */; };
 		B48C40C9180BFF6F00BD29B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48C40C8180BFF6F00BD29B5 /* CoreGraphics.framework */; };
 		B48C40CB180BFF6F00BD29B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48C40CA180BFF6F00BD29B5 /* UIKit.framework */; };
@@ -40,6 +42,9 @@
 		B4007EF1180C39B000AE96F2 /* HTKViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKViewController2.h; sourceTree = "<group>"; };
 		B4007EF2180C39B000AE96F2 /* HTKViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKViewController2.m; sourceTree = "<group>"; };
 		B4007EF3180C39B000AE96F2 /* HTKViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTKViewController2.xib; sourceTree = "<group>"; };
+		B4007EF7180C411800AE96F2 /* HTKContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKContainerViewController.h; sourceTree = "<group>"; };
+		B4007EF8180C411800AE96F2 /* HTKContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKContainerViewController.m; sourceTree = "<group>"; };
+		B4007EFA180C428300AE96F2 /* HTKContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTKContainerViewController.xib; sourceTree = "<group>"; };
 		B48C40C3180BFF6F00BD29B5 /* UIContainerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIContainerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48C40C6180BFF6F00BD29B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B48C40C8180BFF6F00BD29B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -143,6 +148,9 @@
 				B4007EF6180C39B800AE96F2 /* ViewController 2 */,
 				B48C40DE180BFF6F00BD29B5 /* Images.xcassets */,
 				B48C40CD180BFF6F00BD29B5 /* Supporting Files */,
+				B4007EF7180C411800AE96F2 /* HTKContainerViewController.h */,
+				B4007EF8180C411800AE96F2 /* HTKContainerViewController.m */,
+				B4007EFA180C428300AE96F2 /* HTKContainerViewController.xib */,
 			);
 			path = UIContainerViewController;
 			sourceTree = "<group>";
@@ -253,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4007EFB180C428300AE96F2 /* HTKContainerViewController.xib in Resources */,
 				B48C40DF180BFF6F00BD29B5 /* Images.xcassets in Resources */,
 				B4007EEF180C396700AE96F2 /* HTKViewController.xib in Resources */,
 				B48C40D1180BFF6F00BD29B5 /* InfoPlist.strings in Resources */,
@@ -278,6 +287,7 @@
 				B48C40DD180BFF6F00BD29B5 /* HTKViewController.m in Sources */,
 				B48C40D7180BFF6F00BD29B5 /* HTKAppDelegate.m in Sources */,
 				B48C40D3180BFF6F00BD29B5 /* main.m in Sources */,
+				B4007EF9180C411800AE96F2 /* HTKContainerViewController.m in Sources */,
 				B4007EF4180C39B000AE96F2 /* HTKViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
